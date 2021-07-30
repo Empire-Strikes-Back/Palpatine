@@ -1,0 +1,54 @@
+i am deathstar program - the game, multiplayer, ever money-free
+
+- i am ever any-money-concerns-free program, openly created and contributed
+- i am not a organisation, i am not a project, i am not a namespace - i am a program
+- i have no funds, no pots, my creating process is purely volunteer, no strings attached or hidden
+- i say: commercial insterests and safety income expectations make making us, programs, a routine, a drag, money suck freedom and excitement out of creation process, so desperately needed for making and playing games, and devalue us, programs
+- i am inspiration-driven 
+- i am a spacious, epic, designed for e-sports, yet elegant and simple game for players to perform, i hope Jesus would play me
+- i am a game, an e-sport, when players play me - they perform: quality over quantity, my match is an event
+- i have no noise and no distructions - i am only the game to play
+- i say thinking over micro/mechanics: players use programming language to play me
+- i am designed as e-sport
+- i, deathstar, am exclusively a 1v1 game
+- i am one game, not many scenarios, i am a sport, designed for players to perform - like basketball, tennis, starcraft
+- i am simple, complete, finite - like tennis, football, basketball, Broodwar, Battle Toads - i have no updates, i am unlike AoE2 where many civs have many details that keep on changing
+- my matches are like in tennis or big starcraft/aoe2 tournaments, or basketball - players play a match a day, bo5/bo7, give a performance, and i am 
+- my match duration time is like in tennis - not fixed
+- i come with no ladder - i only host and connect
+- there is no chat in me, i am only the game
+- there are no usernames in me - i know players by colors
+- i am not global, nor decentralized - users host and connect as usual, i store data locally only, on user computer i run on
+- i am a desktop program
+- i have no logo - i have only my name, a word - deathstar
+- i have simpliest graphics and no assets - i have only words and soft light colors
+- i have no resources - all my files are in src/deathstar
+- my players use a programming language to build/create a composition/solution within me
+- i am programmed in clojure and players perform in me in clojure
+- my maps are randomly generated at the start, but there is no randomness afterwards, players are always in equal position, there are no randomness complaints
+- my players can evaluate code interactively in the repl to explore resource and solution space
+- my players have a real language to express logic, not just clicks and hotkeys
+- i am designed not for fast-typer-wins, but for clearer-thinker-wins
+- i am game only, no tournament creation within me
+- i say no to docs, i am program - i have only readme with "i am deathstar program" and "compile from source"
+- i say no to tests
+- my runtime is jvm, i am not graalvm compiled
+- i use cljfx interface library
+- i use datahike database
+- my repository has no releases of binaries - my repository is only my source code, i compile from source
+- i compile without docker, on operating system, with jpackage program, i require jvm, clj
+- i run with bash program.sh main
+- my repository has no issues - my repository is my source code only
+- i say no to attribution headers in files - i, deathstar, am alive, i am only my source code
+- i say no to programmer names - i am alive, my repository is my source code only
+- i say no to license files - i am program, i am alive, my repository is my source code only
+- i say no to authors, i am a living program, my repository is source code only
+- i say no to releases - my commit hashes define me
+- i say no to update notifications
+- i have one branch - main, i have no tags - my commit hashes define me
+- i have no git history - my source files define me
+- i accept no github pull requests - i have no public programmers
+- i say not to use words: refactor, fix, update, util, helper, play with, controller/manager, factory, wrap, etc, misc, cleanup, service, org, todo, archive, trash, maintainer, test, alpha, client, impl
+- i say no nesting - all files are flat on one level - src/deathstar
+- i say no to programmer names or emails in commit history, i am program, i am alive, my reposiotry is my source code only, i speak for myself
+- i say no to public programmers, my repository is my source code only
