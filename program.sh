@@ -48,8 +48,4 @@ j-package(){
   
 }
 
-install_on_linux(){
-  sudo dpkg --install target/deathstar_0.1.0-1_amd64.deb
-}
-
 "$@"
