@@ -12,7 +12,7 @@ main(){
 
 uberjar(){
 
-  # mv target/deathstar.standalone.jar target/jpackage-input/
+  mv target/deathstar.standalone.jar target/jpackage-input/
 
 }
 
