@@ -33,7 +33,7 @@ i am deathstar program - the game, multiplayer, ever money-free
 - my runtime is jvm, i am not graalvm compiled
 - i use cljfx interface library
 - i use datahike database
-- my repository has releases of binaries
+- my repository has no releases of binaries - my repository is only my source code, i compile from source
 - i compile without docker, on operating system, with jpackage program, i require jvm, clj
 - i run with bash program.sh main
 - my repository has no issues - my repository is my source code only
