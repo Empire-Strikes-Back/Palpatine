@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repl(){
-  clj -A:repl
+  clj -M:repl
 }
 
 
