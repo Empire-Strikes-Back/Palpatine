@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repl(){
-    clj -A:repl
+    lein repl
 }
 
 
@@ -27,7 +27,7 @@ j-package(){
     J_ARG="--win-menu --win-dir-chooser --win-shortcut"
           
   elif [ "$OS" == "linux" ]; then
-      J_ARG="--linux-shortcut --icon ./logo/logo-728.png"
+      J_ARG="--linux-shortcut"
   else
       J_ARG=""
   fi
@@ -44,7 +44,6 @@ j-package(){
     --arguments deathstar.main \
     --java-options -Xmx2048m \
     --app-version ${APP_VERSION} \
-    --resource-dir ./logo \
     $J_ARG
   
 }
