@@ -10,9 +10,7 @@
    [clojure.java.io :as io]
    [datahike.api]
 
-   [cljfx.api :as fx]
-
-   [expanse.fs.runtime.core :as fs.runtime.core]))
+   [cljfx.api :as fx]))
 
 (println "clojure.compiler.direct-linking" (System/getProperty "clojure.compiler.direct-linking"))
 (clojure.spec.alpha/check-asserts true)
@@ -36,7 +34,7 @@
 
 (defn -main [& args]
   (println ::-main)
-  (let [data-dir (fs.runtime.core/path-join (System/getProperty "user.dir") "data")
+  (let [data-dir (-> (io/file (System/getProperty "user.dir")) (.getCanonicalPath))
         renderer (cljfx.api/create-renderer)]
     (reset! stateA {:fx/type stage
                     ::renderer renderer})
