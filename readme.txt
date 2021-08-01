@@ -20,6 +20,7 @@ i am deathstar program - the game, multiplayer, ever money-free
 - there are no usernames in me - i know players by colors
 - i am not global, nor decentralized - users host and connect as usual, i store data locally only, on user computer i run on
 - i am a desktop program
+- i have no logo - i have only my name, a word - deathstar
 - i have simpliest graphics and no assets - i have only words and soft light colors
 - i have no resources - all my files are in src/deathstar
 - my players use a programming language to build/create a composition/solution within me
