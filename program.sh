@@ -41,8 +41,8 @@ j-package(){
   fi
 
   jpackage \
-    --input target/jpackage-input \
-    --dest target \
+    --input out/jpackage-input \
+    --dest out \
     --main-jar deathstar.standalone.jar \
     --name "deathstar" \
     --main-class clojure.main \
