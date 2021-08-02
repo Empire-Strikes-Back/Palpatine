@@ -9,11 +9,7 @@
  :main-opts ["-m" "deathstar.main"]
 
  :aliases
- {:main
-  {:jvm-opts ["-Xms768m" "-Xmx11998m" "-Dclojure.compiler.direct-linking=true" "-Dclojure.core.async.pool-size=1"]
-   :main-opts ["-m" "deathstar.main"]}
-
-  :repl
+ {:repl
   {:extra-deps {deps-repl/deps-repl {:git/url "https://github.com/empire-strikes-back/deps-repl"
                                      :sha "24266c05ce16c27ec3464ae6453b931aa0398a1b"}
                 nrepl/nrepl {:mvn/version "0.8.3"}
@@ -22,4 +18,8 @@
                "--init-ns" "deathstar.main"
                "--port" "7788"
                "--bind" "0.0.0.0"
-               "--middleware" "cider.nrepl/cider-middleware"]}}}
+               "--middleware" "cider.nrepl/cider-middleware"]}
+
+  :main
+  {:jvm-opts ["-Xms768m" "-Xmx11998m" "-Dclojure.compiler.direct-linking=true" "-Dclojure.core.async.pool-size=1"]
+   :main-opts ["-m" "deathstar.main"]}}}
