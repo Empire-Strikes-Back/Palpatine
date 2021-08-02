@@ -8,41 +8,19 @@
    [clojure.string]
    [clojure.spec.alpha :as s]
    [clojure.java.io :as io]
-   [datahike.api]
-
-   [cljfx.api :as fx]))
+   [datahike.api]))
 
 (println "clojure.compiler.direct-linking" (System/getProperty "clojure.compiler.direct-linking"))
 (clojure.spec.alpha/check-asserts true)
 (do (set! *warn-on-reflection* true) (set! *unchecked-math* true))
 
-(defn stage
-  [{:as opts
-    :keys [::searchS]}]
-  {:fx/type :stage
-   :showing true
-   #_:on-close-request #_(fn [^WindowEvent event]
-                           (println :on-close-request)
-                           #_(.consume event))
-   :width 1024
-   :height 768
-   :scene {:fx/type :scene
-           :root {:fx/type :h-box
-                  :children [{:fx/type :label :text "deathstar"}]}}})
-
 (defonce stateA (atom nil))
 
 (defn -main [& args]
   (println ::-main)
-  (let [data-dir (-> (io/file (System/getProperty "user.dir")) (.getCanonicalPath))
-        renderer (cljfx.api/create-renderer)]
-    (reset! stateA {:fx/type stage
-                    ::renderer renderer})
-    (add-watch stateA :watch-fn (fn [k stateA old-state new-state] (renderer new-state)))
-
-    (javafx.application.Platform/setImplicitExit true)
-    (renderer @stateA)
-    #_(cljfx.api/mount-renderer stateA render)
+  (let [data-dir (-> (io/file (System/getProperty "user.dir")) (.getCanonicalPath))]
+    (reset! stateA {})
+    (add-watch stateA :watch-fn (fn [k stateA old-state new-state] new-state))
 
     (go)))
 
