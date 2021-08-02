@@ -34,7 +34,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i say no to docs, i am program - i have only readme with "i am deathstar program" and "compile from source"
 - i say no to tests
 - my runtime is jvm, i am not graalvm compiled
-- i use cljfx interface library
 - i use datahike database
 - my repository has no releases of binaries - my repository is only my source code, i compile from source
 - i compile without docker, on operating system, with jpackage program, i require jvm, clj
