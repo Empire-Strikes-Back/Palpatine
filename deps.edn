@@ -6,8 +6,6 @@
 
         io.replikativ/datahike {:mvn/version "0.3.6"}}
 
- :main-opts ["-m" "deathstar.main"]
-
  :aliases
  {:repl
   {:extra-deps {deps-repl/deps-repl {:git/url "https://github.com/empire-strikes-back/deps-repl"
