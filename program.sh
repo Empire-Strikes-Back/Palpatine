@@ -17,15 +17,6 @@ main(){
     -M -m deathstar.main
 }
 
-uberjar(){
-  clj \
-    -X:uberjar genie.core/process \
-    :uberjar-name out/deathstar.standalone.jar \
-    :main-ns deathstar.main
-  mkdir -p out/jpackage-input
-  mv out/deathstar.standalone.jar out/jpackage-input/
-}
-
 j-package(){
   OS=${1:?"Need OS type (windows/linux/mac)"}
 
