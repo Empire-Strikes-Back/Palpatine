@@ -20,7 +20,7 @@ main(){
 uberjar(){
   clj \
     -X:uberjar genie.core/process \
-    :uberjar-name out/deathstar.standalone.jar \
+    :uberjar-name '"out/deathstar.standalone.jar"' \
     :main-ns deathstar.main
   mkdir -p out/jpackage-input
   mv out/deathstar.standalone.jar out/jpackage-input/
