@@ -18,7 +18,6 @@ main(){
 }
 
 uberjar(){
-  lein with-profiles +uberjar uberjar
   mkdir -p out/jpackage-input
   mv out/deathstar.standalone.jar out/jpackage-input/
 }
