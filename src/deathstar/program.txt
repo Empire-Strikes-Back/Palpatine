@@ -8,3 +8,4 @@ i am deathstar program, i say:
 - my match duration time is like in tennis - not fixed
 - my players use a programming language to build/create a composition/solution within me
 - my maps are randomly generated at the start, but there is no randomness afterwards, players are always in equal position, there are no randomness complaints
+- my maps are open - both players can always see everything opponent is doing

@@ -18,7 +18,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i have simpliest graphics and no assets - i have only words and soft light colors
 - i have no resources - all my files are in src/deathstar
 - i am programmed in clojure and players perform in me in clojure
-- my maps are open - both players can always see everything opponent is doing
 - my players can evaluate code interactively in the repl to explore resource and solution space
 - my players have a real language to express logic, not just clicks and hotkeys
 - i am designed not for fast-typer-wins, but for clearer-thinker-wins
