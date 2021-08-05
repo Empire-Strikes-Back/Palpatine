@@ -5,3 +5,4 @@ i am deathstar program, i say:
 - i am one game, not many scenarios, i am a sport, designed for players to perform - like basketball, tennis, starcraft
 - i am simple, complete, finite - like tennis, football, basketball, Broodwar, Battle Toads - i have no updates, i am unlike AoE2 where many civs have many details that keep on changing
 - my matches are like in tennis or big starcraft/aoe2 tournaments, or basketball - players play a match a day, bo5/bo7, give a performance, and i am 
+- my match duration time is like in tennis - not fixed
