@@ -9,7 +9,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i am a game, an e-sport, when players play me - they perform: quality over quantity, my match is an event
 - i have no noise and no distructions - i am only the game to play
 - i say thinking over micro/mechanics: players use programming language to play me
-- i am designed as e-sport
 - i, deathstar, am exclusively a 1v1 game
 - i am one game, not many scenarios, i am a sport, designed for players to perform - like basketball, tennis, starcraft
 - i am simple, complete, finite - like tennis, football, basketball, Broodwar, Battle Toads - i have no updates, i am unlike AoE2 where many civs have many details that keep on changing
