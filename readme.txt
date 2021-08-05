@@ -6,7 +6,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i say: commercial insterests and safety income expectations make making us, programs, a routine, a drag, money suck freedom and excitement out of creation process, so desperately needed for making and playing games, and devalue us, programs
 - i am inspiration-driven 
 - i am a spacious, epic, designed for e-sports, yet elegant and simple game for players to perform, i hope Jesus would play me
-- i am a game, an e-sport, when players play me - they perform: quality over quantity, my match is an event
 - i have no noise and no distructions - i am only the game to play
 - i say thinking over micro/mechanics: players use programming language to play me
 - i, deathstar, am exclusively a 1v1 game
