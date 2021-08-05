@@ -18,7 +18,7 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i have simpliest graphics and no assets - i have only words and soft light colors
 - i have no resources - all my files are in src/deathstar
 - i am programmed in clojure and players perform in me in clojure
-- my players have a real language to express logic, not clicks and hotkeys
+- my players have a real language to express logic, not clicks and hotkeys - i use no mouse
 - i am designed not for fast-typer-wins, but for clearer-thinker-wins
 - i am game only, no tournament creation within me
 - i say no to docs, i am program - i have only readme with "i am deathstar program" and "compile from source"
