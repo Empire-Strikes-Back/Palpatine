@@ -7,3 +7,4 @@ i am deathstar program, i say:
 - my matches are like in tennis or big starcraft/aoe2 tournaments, or basketball - players play a match a day, bo5/bo7, give a performance, and i am 
 - my match duration time is like in tennis - not fixed
 - my players use a programming language to build/create a composition/solution within me
+- my maps are randomly generated at the start, but there is no randomness afterwards, players are always in equal position, there are no randomness complaints
