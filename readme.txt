@@ -17,7 +17,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i have no logo - i have only my name, a word - deathstar
 - i have simpliest graphics and no assets - i have only words and soft light colors
 - i have no resources - all my files are in src/deathstar
-- my players use a programming language to build/create a composition/solution within me
 - i am programmed in clojure and players perform in me in clojure
 - my maps are randomly generated at the start, but there is no randomness afterwards, players are always in equal position, there are no randomness complaints
 - my maps are open - both players can always see everything opponent is doing
