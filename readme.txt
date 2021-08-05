@@ -9,7 +9,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i have no noise and no distructions - i am only the game to play
 - i say thinking over micro/mechanics: players use programming language to play me
 - i, deathstar, am exclusively a 1v1 game
-- i am simple, complete, finite - like tennis, football, basketball, Broodwar, Battle Toads - i have no updates, i am unlike AoE2 where many civs have many details that keep on changing
 - my matches are like in tennis or big starcraft/aoe2 tournaments, or basketball - players play a match a day, bo5/bo7, give a performance, and i am 
 - my match duration time is like in tennis - not fixed
 - i come with no ladder - i only host and connect
