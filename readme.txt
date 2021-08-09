@@ -11,6 +11,7 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i, deathstar, am exclusively a 1v1 game
 - i come with no ladder - i only host and connect
 - there is no chat in me, i am only the game
+- i know players by their name - a word, there are no logos in me
 - i am not global, nor decentralized - users host and connect as usual, i store data locally only, on user computer i run on
 - i am a desktop program
 - i have no logo - i have only my name, a word - deathstar
