@@ -6,6 +6,7 @@
                                      timeout to-chan  sliding-buffer dropping-buffer
                                      pipeline pipeline-async]]
    [clojure.string]
+   [clojure.spec.alpha :as s]
    [clojure.java.io :as io]
    [datahike.api])
   (:import
@@ -14,6 +15,7 @@
    (java.awt.event WindowListener KeyListener KeyEvent)))
 
 (println "clojure.compiler.direct-linking" (System/getProperty "clojure.compiler.direct-linking"))
+(clojure.spec.alpha/check-asserts true)
 (do (set! *warn-on-reflection* true) (set! *unchecked-math* true))
 
 (defonce stateA (atom nil))
