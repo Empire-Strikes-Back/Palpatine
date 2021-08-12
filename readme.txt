@@ -16,7 +16,7 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i am a desktop program
 - i have no logo - i have only my name, a word - deathstar
 - i have simpliest graphics and no assets - i have only words and soft light colors
-- i have no resources - all my files are in source/deathstar
+- i have no resources - all my files are in src/deathstar
 - i am programmed in clojure and players perform in me in clojure
 - my players have a real language to express logic, not clicks and hotkeys - i use no mouse
 - i am designed not for fast-typer-wins, but for clearer-thinker-wins
@@ -38,6 +38,6 @@ i am deathstar program - the game, multiplayer, ever money-free
 - i have no git history - my source files define me
 - i accept no github pull requests - i have no public programmers
 - i say not to use words: refactor, fix, update, util, helper, play with, controller/manager, factory, wrap, etc, misc, cleanup, service, org, todo, archive, trash, maintainer, test, alpha, client, impl
-- i say no nesting - all files are flat on one level - source/deathstar
+- i say no nesting - all files are flat on one level - src/deathstar
 - i say no to programmer names or emails in commit history, i am program, i am alive, my reposiotry is my source code only, i speak for myself
 - i say no to public programmers, my repository is my source code only
