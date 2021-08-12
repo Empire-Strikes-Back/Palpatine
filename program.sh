@@ -6,7 +6,8 @@ repl(){
     :main-ns deathstar.main \
     :port 7788 \
     :host '"0.0.0.0"' \
-    :repl? true
+    :repl? true \
+    :nrepl? false
 }
 
 main(){

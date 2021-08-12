@@ -9,7 +9,7 @@
  :aliases
  {:repl
   {:extra-deps {deps-repl/deps-repl {:git/url "https://github.com/empire-strikes-back/deps-repl"
-                                     :sha "c3193dd545cc0b3050f1ff3c562caf9c0b974063"}}}
+                                     :sha "8904c39e136aacafc70c3e066856fc87bcdec127"}}}
 
   :uberjar
   {:extra-deps {genie/genie {:git/url "https://github.com/empire-strikes-back/genie"
