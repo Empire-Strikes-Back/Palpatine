@@ -10,4 +10,3 @@ i am deathstar program, i say:
 - my maps are randomly generated at the start, but there is no randomness afterwards, players are always in equal position, there are no randomness complaints
 - my maps are open - both players can always see everything opponent is doing
 - my players can evaluate code interactively in the repl to explore resource and solution space
-- i use datahike database

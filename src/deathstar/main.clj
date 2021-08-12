@@ -7,8 +7,7 @@
                                      pipeline pipeline-async]]
    [clojure.string]
    [clojure.spec.alpha :as s]
-   [clojure.java.io :as io]
-   [datahike.api])
+   [clojure.java.io :as io])
   (:import
    (javax.swing JFrame JLabel JButton SwingConstants JMenuBar JMenu JTextArea)
    (java.awt Canvas Graphics)
@@ -43,56 +42,6 @@
   (require
    '[deathstar.main]
    :reload)
-
-  ;
-  )
-
-(comment
-
-  (require
-   '[datahike.api]
-   :reload)
-
-  (do
-    (io/make-parents (System/getProperty "user.dir") "data" "db")
-    (def cfg {:store {:backend :file
-                      :path "./data/db"}})
-    (datahike.api/create-database cfg)
-    (def conn (datahike.api/connect cfg)))
-
-  (do
-    (datahike.api/release conn)
-    (datahike.api/delete-database cfg))
-
-  (datahike.api/transact conn [{:db/ident :name
-                                :db/valueType :db.type/string
-                                :db/cardinality :db.cardinality/one}
-                               {:db/ident :words
-                                :db/valueType :db.type/string
-                                :db/cardinality :db.cardinality/one}])
-
-  (datahike.api/transact conn [{:name  "BB-8", :words "Orange and white, one of a kind"}
-                               {:name  "C-3PO", :words "Oh my.."}
-                               {:name  "R2-D2", :words "We're going to the Dagobah system"}])
-
-  (datahike.api/q '[:find ?e ?name ?words
-                    :where
-                    [?e :name ?name]
-                    [?e :words ?words]]
-                  @conn)
-
-  (datahike.api/transact conn {:tx-data [{:db/id 2 :words "my first job was programming binary loadfilters - very similar to your vaporators in most respects"}]})
-
-  (datahike.api/q {:query '{:find [?e ?name ?words]
-                            :where [[?e :name ?name]
-                                    [?e :words ?words]]}
-                   :args [@conn]})
-
-  (datahike.api/q '[:find ?words
-                    :where
-                    [?e :name "R2-D2"]
-                    [?e :words ?words]]
-                  (datahike.api/history @conn))
 
   ;
   )
