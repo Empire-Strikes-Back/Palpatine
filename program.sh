@@ -1,7 +1,10 @@
 #!/bin/bash
 
 repl(){
-  echo 1
+  clj \
+    -J-Dclojure.core.async.pool-size=1 \
+    -X:repl ripley.core/process \
+    :main-ns deathstar.main
 }
 
 main(){
@@ -14,7 +17,7 @@ uberjar(){
 }
 
 release(){
-  echo 1
+  echo
 }
 
 "$@"
