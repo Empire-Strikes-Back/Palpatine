@@ -15,7 +15,11 @@ main(){
 
 uberjar(){
 
-  echo 1
+  clojure \
+    -X:uberjar genie.core/process \
+    :main-ns deathstar.main \
+    :filename '"out/deathstar.jar"' \
+    :paths '["src" "out/identicon"]'
 }
 
 release(){
