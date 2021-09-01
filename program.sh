@@ -29,7 +29,7 @@ uberjar(){
 }
 
 release(){
-  echo
+  uberjar
 }
 
 "$@"
