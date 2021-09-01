@@ -16,6 +16,12 @@ main(){
 uberjar(){
 
   clojure \
+    -X:identicon zazu.core/process \
+    :word '"deathstar"' \
+    :filename '"out/identicon/icon.png"' \
+    :size 256
+
+  clojure \
     -X:uberjar genie.core/process \
     :main-ns deathstar.main \
     :filename '"out/deathstar.jar"' \
