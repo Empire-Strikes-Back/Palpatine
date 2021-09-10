@@ -1,1 +1,1 @@
-i am deathstar program - i am multiplayer game, next biggest esport
+i am deathstar program - i am multiplayer game
