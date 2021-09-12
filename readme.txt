@@ -1,1 +1,1 @@
-i am deathstar program - i am game
+i am Death-Star program - i am game

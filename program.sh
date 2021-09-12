@@ -3,28 +3,28 @@
 repl(){
   clj \
     -J-Dclojure.core.async.pool-size=1 \
-    -X:repl ripley.core/process \
-    :main-ns deathstar.main
+    -X:repl Ripley.core/process \
+    :main-ns Death-Star.main
 }
 
 main(){
   clojure \
     -J-Dclojure.core.async.pool-size=1 \
-    -M -m deathstar.main
+    -M -m Death-Star.main
 }
 
 uberjar(){
 
   clojure \
-    -X:identicon zazu.core/process \
-    :word '"deathstar"' \
+    -X:identicon Zazu.core/process \
+    :word '"Death-Star"' \
     :filename '"out/identicon/icon.png"' \
     :size 256
 
   clojure \
-    -X:uberjar genie.core/process \
-    :main-ns deathstar.main \
-    :filename '"out/deathstar.jar"' \
+    -X:uberjar Genie.core/process \
+    :main-ns Death-Star.main \
+    :filename '"out/Death-Star.jar"' \
     :paths '["src" "out/identicon"]'
 }
 

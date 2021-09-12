@@ -1,4 +1,4 @@
-(ns deathstar.main
+(ns Death-Star.main
   (:gen-class)
   (:require 
     [clojure.core.async :as a :refer [<! >! <!! >!! chan put! take! go alt! alts! do-alts close! timeout pipe mult tap untap 
@@ -18,7 +18,7 @@
 
 (defn window
   []
-  (let [jframe (JFrame. "i am deathstar program")]
+  (let [jframe (JFrame. "i am Death-Star program")]
 
   (when-let [url (io/resource "icon.png")]
     (.setIconImage jframe (.getImage (ImageIcon. url)))
@@ -31,7 +31,7 @@
     (.setVisible true)
   )
 
-  (alter-var-root #'deathstar.main/jframe (constantly jframe))
+  (alter-var-root #'Death-Star.main/jframe (constantly jframe))
 
   nil
   )
@@ -40,7 +40,7 @@
 (defn reload
   []
   (require 
-    '[deathstar.main]
+    '[Death-Star.main]
     :reload)
 )
 
