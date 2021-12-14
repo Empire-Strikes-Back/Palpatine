@@ -2,54 +2,35 @@
 
 repl(){
   clj \
-    -X:repl deps-repl.core/process \
-    :main-ns deathstar.main \
-    :port 7788 \
-    :host '"0.0.0.0"' \
-    :repl? true \
-    :nrepl? false
+    -J-Dclojure.core.async.pool-size=1 \
+    -X:repl Ripley.core/process \
+    :main-ns Palpatine.main
 }
 
 main(){
   clojure \
     -J-Dclojure.core.async.pool-size=1 \
-    -J-Dclojure.compiler.direct-linking=false \
-    -M -m deathstar.main
+    -M -m Palpatine.main
 }
 
 uberjar(){
-  clj \
-    -X:uberjar genie.core/process \
-    :uberjar-name '"out/deathstar.standalone.jar"' \
-    :main-ns deathstar.main
-  mkdir -p out/jpackage-input
-  mv out/deathstar.standalone.jar out/jpackage-input/
+
+  clojure \
+    -X:identicon Zazu.core/process \
+    :word '"Palpatine"' \
+    :filename '"out/identicon/icon.png"' \
+    :size 256
+
+  rm -rf out/*.jar
+  clojure \
+    -X:uberjar Genie.core/process \
+    :main-ns Palpatine.main \
+    :filename "\"out/Palpatine-$(git rev-parse --short HEAD).jar\"" \
+    :paths '["src" "out/identicon"]'
 }
 
-j-package(){
-  OS=${1:?"Need OS type (windows/linux/mac)"}
-
-  echo "Starting compilation..."
-
-  if [ "$OS" == "windows" ]; then
-    J_ARG="--win-menu --win-dir-chooser --win-shortcut"
-          
-  elif [ "$OS" == "linux" ]; then
-      J_ARG="--linux-shortcut"
-  else
-      J_ARG=""
-  fi
-
-  jpackage \
-    --input out/jpackage-input \
-    --dest out \
-    --main-jar deathstar.standalone.jar \
-    --name "deathstar" \
-    --main-class clojure.main \
-    --arguments -m \
-    --arguments deathstar.main \
-    --app-version "1" \
-    $J_ARG
+release(){
+  uberjar
 }
 
 "$@"

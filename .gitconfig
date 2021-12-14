@@ -1,5 +1,5 @@
 [user]
-	email = deathstar@program
-	name = deathstar
+    name = Palpatine
+    email = Palpatine@Death-Star
 
-# git config --local include.path ../.gitconfig
+# git config --local include.path "../.gitconfig"
